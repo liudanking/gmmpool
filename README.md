@@ -6,6 +6,10 @@ A multi level memory pool for Golang:
 ![](https://ws1.sinaimg.cn/large/44cd29dagy1fociejthjoj20n40ckgm0.jpg)
 
 
+## Installation
+
+`go get github.com/liudanking/gmmpool`
+
 ## Usage
 
 
