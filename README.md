@@ -40,6 +40,12 @@ func main() {
 
 ```
 
+## Benchmark (compared with ioutil.ReadAll, x19 speed up)
+
+```
+BenchmarkStdReadAll-4             200000          5969 ns/op
+BenchmarkMultiLevelPool-4        5000000           311 ns/op
+```
 
 
 ## Credit
