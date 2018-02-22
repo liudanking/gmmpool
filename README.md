@@ -13,7 +13,7 @@ A multi level memory pool for Golang:
 ## Usage
 
 
-```
+```go
 package main
 
 import (
@@ -30,6 +30,7 @@ func main() {
 	})
 
 	buf := pool.Get(1025)
+	defer pool.Put(buf)
 	data, err := buf.ReadAll(bytes.NewReader(make([]byte, 8)))
 	if err != nil {
 		log.Fatal(err)
