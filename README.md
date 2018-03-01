@@ -5,6 +5,7 @@ A multi level memory pool for Golang:
 
 ![](https://ws1.sinaimg.cn/large/44cd29dagy1fociejthjoj20n40ckgm0.jpg)
 
+The design thoughts are detailed in [golang multi-level memory pool design and implemention](https://liudanking.com/arch/golang-multi-level-memory-pool-design-implementation/)(in Chinese🇨🇳).
 
 ## Installation
 
